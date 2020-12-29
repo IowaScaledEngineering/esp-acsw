@@ -1,0 +1,4 @@
+schematics esp-acsw3.sch
+output-name ../pcb/esp-acsw3
+skip-m4
+elements-dir ../../../footprints
