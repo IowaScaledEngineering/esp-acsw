@@ -14,7 +14,6 @@ T 11500 300 9 10 1 0 0 0 1
 T 13900 100 9 10 1 0 0 0 2
 Michael Petersen
 
-C 12400 17900 1 0 0 gnd-1.sym
 C 6300 700 1 0 0 hole-1.sym
 {
 T 6300 700 5 10 0 1 0 0 1
@@ -50,47 +49,6 @@ T 7800 700 5 10 0 0 0 0 1
 footprint=STANDOFF_HEX_n4
 T 8000 1300 5 10 1 1 0 4 1
 refdes=H4
-}
-C 13400 19300 1 270 0 capacitor-1.sym
-{
-T 14100 19100 5 10 0 1 270 0 1
-device=CAPACITOR
-T 14300 19100 5 10 0 0 270 0 1
-symversion=0.1
-T 13400 19300 5 10 0 0 0 0 1
-footprint=0805
-T 13700 19000 5 10 1 1 0 0 1
-refdes=C10
-T 13700 18500 5 10 1 1 0 0 1
-value=0.1uF
-T 13700 18300 5 10 1 1 0 0 1
-description=25V
-}
-C 12200 19100 1 180 1 capacitor-1.sym
-{
-T 12400 18400 5 10 0 1 0 2 1
-device=CAPACITOR
-T 12400 18200 5 10 0 0 0 2 1
-symversion=0.1
-T 12200 19100 5 10 0 0 90 6 1
-footprint=0805
-T 12650 19400 5 10 1 1 0 3 1
-refdes=C8
-T 12650 19200 5 10 1 1 0 3 1
-value=1uF
-T 12650 18650 5 10 1 1 0 5 1
-description=25V
-}
-C 15000 18900 1 0 0 resistor-1.sym
-{
-T 15300 19300 5 10 0 0 0 0 1
-device=RESISTOR
-T 15000 18900 5 10 0 0 0 0 1
-footprint=0805
-T 15450 19150 5 10 1 1 0 3 1
-refdes=R1
-T 15450 18850 5 10 1 1 0 5 1
-value=22Ω
 }
 C 2000 800 1 0 0 nodemcu-v2-socket-1.sym
 {
